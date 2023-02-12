@@ -1,0 +1,83 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h2, p {
+    margin: 0;
+  }
+
+/* Main card container */
+.card {
+    width: 320px;
+    height: 200px;
+    background-color: #e91919;
+    border: 2px solid #635252;
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+  
+  /* Card header */
+  .header {
+    background: linear-gradient(to bottom, #ccc, #fff);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50px;
+  }
+  
+  /* Card footer */
+  .footer {
+    background: linear-gradient(to top, #fff, #ccc);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 50px;
+  }
+  
+  /* Card image */
+  .card img {
+    float: right;
+    max-height: 100%;
+  }
+
+/* Header and footer height */
+.header, .footer {
+    height: 3em;
+    padding: 0.5em;
+  }
+  
+  /* Article height and background color */
+  article {
+    height: 7.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* H2 font size and line height */
+  h2 {
+    font-size: 1.25em;
+    line-height: 3em;
+    text-align: center;
+  }
+  
+  /* Footer paragraph font size and line height */
+  footer p {
+    font-size: 0.9375em;
+    line-height: 1.1em;
+    text-align: center;
+  }
+  
+  /* Article paragraph padding and color */
+  article p {
+    padding: 0.5em;
+    color: #ddd;
+  }
+
+  article p {
+    font-size: 0.6em;
+    line-height: 1.5;
+    padding: 0.5em;
+    color: #E0E0E0;
+  }
+
+  
+  

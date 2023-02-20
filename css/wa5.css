@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#overlay1 {
+    color: #00FF33;
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+
+}
+
+#overlay1 img {
+    width: 4em;
+}
+
+#overlay2 {
+    margin: auto;
+    width:600px;
+    height: 1.5em;
+    padding-top: 0.5em;
+    /*line-height: 2em;*/
+    color: #003366;
+    position: fixed;
+    bottom: 1em;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0.5em;
+}
+
+#timelabel {
+    position: absolute;
+    left: 10px;
+    border-radius: 0.25em;
+    font-size: 0.5em;
+    padding: 0.5em;
+    font-weight: bold;
+    background-color: #003366;
+    color: #FFF;
+}
+#timevalue {
+    position: absolute;
+    left: 80px;
+}
+
+#team1 {
+    background-color: gold;
+    position: absolute;
+    right: 230px;
+    border-radius: 0.25em;
+    font-size: 0.5em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+#score1 {
+    position: absolute;
+    right: 160px;
+}
+
+#team2 {
+    background-color: silver;
+    position: absolute;
+    right: 80px;
+    border-radius: 0.25em;
+    font-size: 0.5em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+#score2 {
+    position: absolute;
+    right: 10px;
+}

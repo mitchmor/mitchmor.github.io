@@ -19,15 +19,31 @@ body{
     border-style: solid;
     border-radius:3px;
     border-color:purple;
-    position:relative;
-    left: 40vw;
+    position: relative;
+    left:40vw;
     background-color: mediumvioletred;
 }
 
 #box3{
-position: sticky;
-width: 73vw;
-height: 175vh;
-border-radius: 10px;
-background-color: orangered;
+    position: sticky;
+    width: 73vw;
+    height: 175vh;
+    border-radius: 10px;
+    background-color: orangered;
+    }
+
+#text1{
+    position: relative;
+    left: 100%;
+    }
+
+#text2{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+#text3{
+    position: sticky;
+    top: 0;
 }

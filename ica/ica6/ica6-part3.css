@@ -10,3 +10,51 @@
 #tallScreen{
     background-color: lavender;
 }
+
+/* Paragraphs inside #narrowScreen */
+@media screen and (max-width: 600px) {
+    #narrowScreen p {
+      color: purple;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    #narrowScreen p {
+      color: green;
+    }
+  }
+  
+  /* Paragraphs inside #wideScreen */
+  @media screen and (min-width: 801px) {
+    #wideScreen p {
+      color: lightblue;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #wideScreen p {
+      color: red;
+    }
+  }
+  
+  /* Paragraphs inside #shortScreen */
+  @media screen and (max-height: 499px) {
+    #shortScreen p {
+      color: yellow;
+    }
+  }
+  @media screen and (min-height: 500px) {
+    #shortScreen p {
+      color: turquoise;
+    }
+  }
+  
+  /* Paragraphs inside #tallScreen */
+  @media screen and (min-height: 801px) {
+    #tallScreen p {
+      color: orange;
+    }
+  }
+  @media screen and (max-height: 800px) {
+    #tallScreen p {
+      color: lavender;
+    }
+  }

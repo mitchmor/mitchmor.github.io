@@ -14,6 +14,9 @@ body{
 
 #grid-parent{
     display:grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center;
 }
 
 #grid-parent h1{
@@ -23,6 +26,8 @@ body{
     
 }
 #no0{
+    position: relative;
+    left: 32vw;
 
 }
 #no1{
@@ -51,4 +56,20 @@ body{
 }
 #no9{
 
+}
+
+#flex-child1{
+    justify-content: center;
+    order:3;
+}
+#flex-child2{
+    order: 4;
+
+}
+#flex-child3{
+    order: 2;
+
+}
+#flex-child4{
+    order:1;
 }

@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #393e46; /* changed background color */
+    color: #f2f2f2; /* changed text color */
+    font-family: Arial, sans-serif; /* changed font */
+}
+
+nav {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    background-color: #222831; /* changed nav bar color */
+}
+
+nav a {
+    width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    color: #f2f2f2; /* changed text color */
+    transition: all 0.3s ease-in-out; /* added transition */
+}
+
+nav a:hover {
+    transform: scale(1.1); /* added hover animation */
+}
+
+img {
+    width: 30vw;
+    height: 30vh;
+}
+
+#red-ball {
+    background-color: #00adb5; /* changed ball color */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    animation: bounce 0.5s ease-in-out infinite alternate; /* added animation */
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(100px, 100px);
+    }
+}
+
+.title {
+    margin-top: 50px; /* added margin to center the title */
+}

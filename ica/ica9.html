@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Elements</title>
+    <style>
+        #color-changing-div {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <script>
+        function changeText() {
+            document.getElementById("text-content").innerHTML = "Text content changed!";
+        }
+
+        function changeBackgroundColor() {
+            document.getElementById("color-changing-div").style.backgroundColor = "green";
+        }
+
+        function resetBackgroundColor() {
+            document.getElementById("color-changing-div").style.backgroundColor = "blue";
+        }
+    </script>
+</head>
+<body>
+    <h1>Interactive Elements Example</h1>
+    
+    <button id="change-text-btn" onclick="changeText()">Click me to change text content</button>
+    <p id="text-content">Original text content</p>
+
+    <div id="color-changing-div" onmouseover="changeBackgroundColor()" onmouseout="resetBackgroundColor()">
+        <p>Hover over me to change background color</p>
+    </div>
+</body>
+</html>
